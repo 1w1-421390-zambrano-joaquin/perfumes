@@ -236,9 +236,6 @@ public partial class perfumeTestContext : DbContext
             entity.HasKey(e => e.ProveedorId).HasName("PK__Proveedo__61266BB96152BBE6");
 
             entity.Property(e => e.ProveedorId).HasColumnName("ProveedorID");
-            entity.Property(e => e.ContactoNombre)
-                .HasMaxLength(100)
-                .IsUnicode(false);
             entity.Property(e => e.Email)
                 .HasMaxLength(100)
                 .IsUnicode(false);

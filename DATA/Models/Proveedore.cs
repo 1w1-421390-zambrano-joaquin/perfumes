@@ -11,11 +11,11 @@ public partial class Proveedore
 
     public string NombreEmpresa { get; set; }
 
-    public string ContactoNombre { get; set; }
-
     public string Telefono { get; set; }
 
     public string Email { get; set; }
+
+    public bool Estado { get; set; }
 
     public virtual ICollection<Producto> Productos { get; set; } = new List<Producto>();
 }

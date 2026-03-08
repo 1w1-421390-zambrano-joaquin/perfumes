@@ -17,11 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DATA\DTOs\" />
-    <Folder Include="DATA\Repository\implementation\" />
-    <Folder Include="DATA\Repository\interface\" />
-    <Folder Include="DATA\Service\implementation\" />
-    <Folder Include="DATA\Service\interface\" />
+    <None Include="efpt.config.json.user" />
   </ItemGroup>
 
 </Project>
