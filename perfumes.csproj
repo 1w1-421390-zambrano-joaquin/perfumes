@@ -18,8 +18,10 @@
 
   <ItemGroup>
     <Folder Include="DATA\DTOs\" />
-    <Folder Include="DATA\Repository\" />
-    <Folder Include="DATA\Service\" />
+    <Folder Include="DATA\Repository\implementation\" />
+    <Folder Include="DATA\Repository\interface\" />
+    <Folder Include="DATA\Service\implementation\" />
+    <Folder Include="DATA\Service\interface\" />
   </ItemGroup>
 
 </Project>
